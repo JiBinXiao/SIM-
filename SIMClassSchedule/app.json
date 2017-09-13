@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/class/class",
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/teacher/teacher"
+  ],
+  "window":{
+   "backgroundTextStyle": "black",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "信息管理学院实验室上机表",
+  "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "postion": "bottom",
+    "borderStyle": "black",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/class/class",
+        "text": "按班级查询",
+        "selectedIconPath": "image/classes_1.png",
+        "iconPath": "image/classes_2.png"
+      },
+      {
+        "pagePath": "pages/teacher/teacher",
+        "text": "按教师查询",
+        "selectedIconPath": "image/teacher_1.png",
+        "iconPath": "image/teacher_2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "selectedIconPath": "image/mine_1.png",
+        "iconPath": "image/mine_2.png"
+      }
+    ]
+  }
+}

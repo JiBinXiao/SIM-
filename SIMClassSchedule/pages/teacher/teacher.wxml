@@ -1,0 +1,63 @@
+<!--index.wxml-->
+
+<view class="title">
+<scroll-view  scroll-x="true" style="height:75rpx;" >
+<view style="display:flex;flex-direction:row;width:3000rpx;height:40rpx">
+  <view class="weeknos"  wx:for="{{array}}" bindtap='weeknoTap' data-set="{{index}}" >
+   {{item}}
+  </view>
+  </view>
+ 
+</scroll-view>
+ <view style="border-bottom:1rpx solid lightgray;width:100%;"></view>
+<view class="title-name">
+<view style="display:flex; flex-direction:row;font-size:9pt;" >
+      第 
+      <view style="color:red;font-size:12pt">{{weekno}}</view>
+      周    
+    </view>
+<view>
+<picker bindchange="bindTeacherPickerChange" value=" {{teacherIndex}}" range="{{teachers}}">
+    <view class="picker" style="font-size:14pt">
+      {{teachers[teacherIndex]}}
+    </view>
+  </picker>
+  </view>
+  <view>
+  <button size='mini' type='primary' bindtap='setDefault'>设为默认</button>
+  </view>
+</view>
+
+
+<view class="top">
+  <view wx:for="{{['周一','周二','周三','周四','周五']}}" class="top-text">{{item}}</view>
+</view>
+</view>
+
+<!--左侧节点-->
+<view>
+<scroll-view scroll-y="true"  style=' height: {{height}}px;'>
+  <view style="height:1300rpx;width:730rpx;display:flex;">
+    <view style="background-color:#D2E6B3;color:#7cba23;">
+      <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12,13]}}" style=' height:100rpx;' class="left">
+        {{item}}
+      </view>
+    </view>
+
+    <!--�ײ�border-->
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12,13]}}">
+      <view style="width:{{width}}px;margin-top:{{(index)*100}}rpx;  position: absolute;border-bottom:1rpx solid {{index==5?'red':'lightgray'}};">
+      </view>
+    </view>
+
+    <!--课表-->
+    <view wx:for="{{wlist}}">
+      <view class="flex-item kcb-item" bindtap="showCardView" data-statu="open" data-index="{{index}}" style="width:{{itemwidth}}px;margin-left:{{(item.xqj-1)*(itemwidth+5)}}px;margin-top:{{(item.skjc-1)*100+5}}rpx;height:{{item.skcd*100-5}}rpx;background-color:{{colorArrays[index%9]}}">
+        <view class="smalltext" >{{item.courseName}}</view>
+         <view class="smalltext" >{{item.address}}</view>
+        <view class="smalltext">{{item.teacher}}</view> 
+      </view>
+    </view>
+  </view>
+</scroll-view>
+</view>

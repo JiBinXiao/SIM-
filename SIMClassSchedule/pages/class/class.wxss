@@ -1,0 +1,163 @@
+/**index.wxss**/
+.title
+{
+  display: flex;
+  width:750rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.weeknos
+{
+   font-size:11pt;
+   width:175rpx;
+
+}
+
+
+
+.title-name
+{
+  display: flex;
+  flex-direction: row;
+  width:750rpx;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 12pt;
+
+}
+
+
+
+.flex-item {
+  
+  height: 100rpx;
+}
+
+.kcb-item {
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+     display: flex;
+    align-items: center;
+   border-radius: 5px;
+             
+}
+
+.kcb-item {
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+
+.smalltext {
+  font-size: 8pt;
+  color: #fff;
+  padding-left: 2px;
+}
+
+.top {
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35rpx;
+  background-color: #d2e6b3;
+  color: #7cba23;
+}
+
+.top-text {
+  width: 140rpx;
+  height: 35rpx;
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.left {
+  width: 35rpx;
+ 
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.editBtn {
+  width: 90%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background-color: #ffda44;
+  border-radius: 8rpx;
+  margin: 60rpx auto;
+}
+
+.editBtn:active {
+  background-color: #e3c343;
+}
+
+/*城市选择器*/
+
+.container {
+  display: block;
+}
+
+.citypickers {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  background-color: red;
+}
+
+.citypicker {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.citybody {
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+}
+
+.cityheader {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 4;
+}
+
+.city-cancel {
+  float: left;
+  margin: 20rpx;
+  color: #818181;
+}
+
+.city-true {
+  float: right;
+  margin: 20rpx;
+  color: #2fb42e;
+}
+
+.section .picker {
+  background-color: #fff;
+  border-bottom: 1px #d9d9d9 solid;
+  border-top: 1px #d9d9d9 solid;
+  padding: 20rpx;
+}
+

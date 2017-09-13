@@ -1,0 +1,92 @@
+/**index.wxss**/
+.title
+{
+  display: flex;
+  width:750rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.weeknos
+{
+   font-size:11pt;
+   width:175rpx;
+   
+}
+
+
+
+.title-name
+{
+  display: flex;
+  flex-direction: row;
+  width:750rpx;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 12pt;
+
+}
+
+
+
+.flex-item {
+  
+  height: 100rpx;
+}
+
+.kcb-item {
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+     display: flex;
+    align-items: center;
+   border-radius: 5px;
+             
+}
+
+.kcb-item {
+  position: absolute;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+
+.smalltext {
+  font-size: 8pt;
+  color: #fff;
+  padding-left: 2px;
+}
+
+.top {
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 35rpx;
+  background-color: #d2e6b3;
+  color: #7cba23;
+}
+
+.top-text {
+  width: 140rpx;
+  height: 35rpx;
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.left {
+  width: 35rpx;
+ 
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

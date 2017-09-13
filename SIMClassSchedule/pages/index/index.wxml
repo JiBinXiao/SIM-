@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="main">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    
+  </view>
+  <view class="detail">
+
+    <text class="msg">默认数据</text>
+      <text class="msg">{{classmsg}}</text>
+      <text class="msg">{{teachermsg}}</text>
+    <view class="usermotto">
+    
+    数据仅供参考，真实数据以实验室网站为准
+    </view>
+   <view class="notice">
+    
+    此项目与学院实验室无关，仅作为项目练习和学习使用。
+    </view>
+    <text class="version">{{motto}}</text>
+
+     <text class="address">源码地址：https://github.com/JiBinXiao/SIMSchedule</text>
+  </view>
+</view>
