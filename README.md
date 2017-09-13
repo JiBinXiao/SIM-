@@ -29,13 +29,13 @@
 
 ### Page文件列表说明
 1. 按班级查询页面。
-![](https://github.com/JiBinXiao/SIMSchedule/master/Printscreen/classes.gif)
+![](https://github.com/JiBinXiao/SIMSchedule/tree/master/Printscreen/classes.gif)
 
 2. 按教师查询页面。
-![](https://github.com/JiBinXiao/SIMSchedule/master/Printscreen/teacher.gif)
+![](https://github.com/JiBinXiao/SIMSchedule/tree/master/Printscreen/teacher.gif)
 
 2. 我的页面。
-![](https://github.com/JiBinXiao/SIMSchedule/master/Printscreen/mine.png)
+![](https://github.com/JiBinXiao/SIMSchedule/tree/master/Printscreen/mine.png)
 
 
 
