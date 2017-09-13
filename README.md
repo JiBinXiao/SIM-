@@ -35,14 +35,17 @@
 ### Page文件列表说明
 
 1. 按班级查询页面。
+
 ![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/classes.gif)
 
 
 2. 按教师查询页面。
+
 ![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/teacher.gif)
 
 
-2. 我的页面。
+3. 我的页面。
+
 ![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/mine.png)
 
 
