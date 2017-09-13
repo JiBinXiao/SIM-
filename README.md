@@ -55,11 +55,12 @@
 # SIM机房课表开发笔记 - 目录
 
 ### 开发环境
-微信小程序开发平台
-Tomcat 7.0 以上
-SQLSERVER 2008 R2
-JDK 1.6以上
-MyEclipse 2014
+1. 微信小程序开发平台。
+2. Tomcat 7.0 以上。
+3. SQLSERVER 2008 R2。
+4. JDK 1.6以上。
+5. MyEclipse 2014。
+
 
 ### 1.1介绍
 1. SIMClassSchedule是微信小程序包，需要在微信小程序开发平台上运行。
