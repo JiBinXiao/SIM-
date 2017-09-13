@@ -13,7 +13,7 @@
 
 ### 招募开源项目参与者：
 ### 本项目想做成一个便于师生学习交流查询的项目，小程序已上线，可在微信中搜索 SIM机房课表 直接使用。
-![](https://github.com/JiBinXiao/SIMSchedule/master/Printscreen/二维码.jpg)
+![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/二维码.jpg)
 ####主要功能如下：
 1. 课程显示界面仿照超级课程表。
 2. 按实验室和周数查询：显示该实验室本周所有课程。
@@ -25,17 +25,19 @@
 #### 人员要求：
 1. 会简单sql语句，一定java，HTML+CSS+JS基础。
 2. 最好有java web开发经验。
-3. 有分享精神，好说话，不为利益。
+3. 不满足以上两条的话，没关系，只要你爱学习也可以加入。
+4. 有分享精神，好说话，不为利益。
 
+如果你想加入，加QQ：941623975
 ### Page文件列表说明
 1. 按班级查询页面。
-![](https://github.com/JiBinXiao/SIMSchedule/tree/master/Printscreen/classes.gif)
+![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/classes.gif)
 
 2. 按教师查询页面。
-![](https://github.com/JiBinXiao/SIMSchedule/tree/master/Printscreen/teacher.gif)
+![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/teacher.gif)
 
 2. 我的页面。
-![](https://github.com/JiBinXiao/SIMSchedule/tree/master/Printscreen/mine.png)
+![](https://github.com/JiBinXiao/SIMSchedule/blob/master/Printscreen/mine.png)
 
 
 
