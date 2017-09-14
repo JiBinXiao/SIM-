@@ -1,5 +1,5 @@
 //app.js
-const api = 'https://www.deartsing.com/';
+const api = 'http://localhost:8080/';
 App({
   onLaunch: function () {
     // 展示本地存储能力
