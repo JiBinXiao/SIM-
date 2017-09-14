@@ -15,7 +15,7 @@ public class sqlHelper {
 	static String url="jdbc:sqlserver://localhost:1433;database=";
 	static String database="SIM";
 	static String user="sa";
-	static String password="952999";
+	static String password="***";
 	
 	
 	//初始化数据
